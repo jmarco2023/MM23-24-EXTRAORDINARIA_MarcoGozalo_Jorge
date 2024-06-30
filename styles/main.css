@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Roboto Condensed';
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+h1{
+    font-family: 'Pixelify Sans';
+    font-size: 35px;
+    color: #0c30fc;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 html{
     scroll-behavior: smooth;
@@ -42,7 +60,7 @@ section{
     max-width:800px;
 }
 .foto-retrato{
-    width: 150px;
+    width: 350px;
     height: auto;
     border-radius: 50%;
 }
@@ -51,6 +69,7 @@ section{
     width: 50px;
     height: 50px;
     border-radius: 0%;
+    margin: 10px 20px;
 }
 .trabajo{
     max-width: 100%;
