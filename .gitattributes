@@ -1,5 +1,0 @@
-videos filter=lfs diff=lfs merge=lfs -text
-Nightly[[:space:]]Frightst.mp4 filter=lfs diff=lfs merge=lfs -text
-The[[:space:]]Mystic[[:space:]]Forge.mp4 filter=lfs diff=lfs merge=lfs -text
-Shadow[[:space:]]Trigger.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
