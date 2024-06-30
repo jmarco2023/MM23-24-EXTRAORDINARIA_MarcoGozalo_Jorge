@@ -7,6 +7,10 @@
     padding: 0;
     text-align: center;
 }
+body{
+    background: url('fondo_web.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
 h1{
     font-family: 'Pixelify Sans';
     font-size: 35px;
@@ -21,7 +25,7 @@ h2{
 }
 p{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 html{
     scroll-behavior: smooth;
@@ -78,6 +82,8 @@ section{
 video{
     max-width: 100%;
     height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .cronologia{
     position: relative;
@@ -130,7 +136,6 @@ video{
 }
 .cronologia-contenido{
     padding: 20px 30px;
-    background-color: white;
     position: relative;
     border-radius: 6px;
 }
@@ -140,6 +145,7 @@ video{
 .cronologia-item:nth-last-child(even) .cronologia-fecha{
     right: calc(100% + 15px);
 }
+
 @media (max-width: 768px){
     nav ul li{
         display: block;
